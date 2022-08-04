@@ -5,7 +5,7 @@ export class Todo {
 //Con esto puedo recuperar los metodos que se pierden en el localStorage
     static fromJSON ( {id,tarea, completado, creado}){
 
-        const tempTodo = new Todo( obj.tarea )
+        const tempTodo = new Todo( tarea )
         tempTodo.id = id;
         tempTodo.completado = completado;
         tempTodo.creado =creado;
