@@ -112,12 +112,6 @@ ulFiltros.addEventListener('click', (event) => {
                     elemento.classList.add('hidden');
                 }
             break;
-
         }
-
-
     }
-
-
-
 });
